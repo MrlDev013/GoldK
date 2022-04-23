@@ -1,0 +1,79 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+ background-color: black;
+ font-family: Candara, Helvetica, sans-serif;
+ margin: 0;
+ padding: 10px 50px 50px 50px;
+}
+
+header h1
+{
+ font-size: 80px;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: gold;
+    text-shadow: 2px 5px 2px darkgoldenrod ;
+}
+
+.menu
+{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px darkgoldenrod;
+}
+.menu a
+{
+    padding: 10px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    color: white ;
+}
+
+.colunaDeProdutos
+{
+    float: left;
+    width: 100%;
+    color: black;
+}
+.grid
+{
+    background-color: gold;
+    box-shadow: 2px 5px 2px goldenrod;
+}
+.produto img
+{
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.produto
+{
+    text-align: center;
+}
+.gridProdutos
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.produto:hover 
+{
+    color: white;
+    cursor: pointer;
+}

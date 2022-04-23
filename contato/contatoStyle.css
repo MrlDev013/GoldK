@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+ background-color: black;
+ font-family: Candara, Helvetica, sans-serif;
+ margin: 0;
+ padding: 10px 50px 50px 50px;
+}
+
+header h1
+{
+ font-size: 80px;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: gold;
+    text-shadow: 2px 5px 2px darkgoldenrod ;
+}
+
+.menu
+{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px darkgoldenrod;
+}
+.menu a
+{
+    padding: 10px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    color: white ;
+}
+
+.contato
+{
+    color: gold;
+    padding: 50px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+
+}
